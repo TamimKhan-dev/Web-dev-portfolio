@@ -22,21 +22,26 @@
 .btn-primary{
     background-color: #FD6E0A;
     padding: 13px 25px;
-    font-weight: 550;
+    font-weight: 500;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
 }
-
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 23px 0px, bottom right;
+}
 
 /* Nav styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 200px;
+    margin: 30px 280px;
 
 }
 .nav-title{
@@ -53,4 +58,26 @@ nav li a{
 nav ul {
     display: flex;
     align-items: center;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
 }
