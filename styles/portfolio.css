@@ -9,6 +9,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  overflow-x: hidden;  
 }
 /* shared styles */
 .text-primary{
@@ -28,6 +29,25 @@
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
+}
+.secondry-bg{
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.item-title{
+    color: #757575;
+}
+.text-center{
+    text-align: center;
 }
 /* header */
 .header{
@@ -104,4 +124,97 @@ nav ul {
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
     font-weight: 700;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*  about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.item-description{
+    font-weight: 600;
+}
+
+/* skills section styles */
+.skills{
+    margin: 130px 0 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 90px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+    width: 267px;
+    height: 377px;
+}
+.skill .skill-title{
+    padding: 30px 0 20px;
+}
+.skill .skill-description{
+    line-height: 28px;
+    font-size: 1.1rem
+}
+.skill-secDescription{
+    padding-top: 30px;
+}
+
+/* resume section styles */
+.resume{
+    margin-bottom: 113px;
+}
+.resume .section-title{
+    text-align: center;
+    padding-bottom: 113px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    padding-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #474747;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    padding: 20px 0 30px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    padding-bottom: 20px;
+}
+hr{
+    margin-bottom: 30px;
+    border: none;
+    height: 1px;
+    background: #d1d1d1;
+}
+.resumebtn-container{
+    margin-top: 50px;
 }
